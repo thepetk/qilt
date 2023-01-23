@@ -1,0 +1,21 @@
+# qilt
+
+qilt = quarkus filter - my exploration into using Quarkus to manage my mail as imapfilter is awesome but its Lua ... and I like Java :)
+
+## Running the application in dev mode
+
+You can run your application in dev mode that enables live coding using:
+```shell script
+./mvnw quarkus:dev
+```
+
+Properties:
+
+[%header,format=csv]
+|===
+qilt.imap.host,imap.gmail.com
+qilt.imap.user,some.email@wherever.at
+qilt.imapl.password,xxxx
+|===
+
+
